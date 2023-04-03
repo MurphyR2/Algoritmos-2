@@ -1,8 +1,8 @@
 # Clase 1
 
-
-<img src="/assets/python-logo-4k-i6.jpg" alt="Logo"  width="100%">
-
+<p align="center">
+<img src="/assets/python-logo-4k-i6.jpg" alt="Logo"  width="100%" >
+</p>
 Ciclo:2023-1
 
 Librerias de C++ importantes: Flaks,Quivi,ROS
@@ -17,6 +17,10 @@ print("Hola, mundo!")
 1. Anaconda Navigator
 2. Spyder (Anaconda)
 3. Jupiter (Anaconda)
+
+<p align="center">
+<img src="/assets/anaconda.jpg" alt="Anaconda"  width="50%" class="center">
+</p>
 
 ## 1. Spider
 1. Crear una carpeta para almacenar tus archivos D:\python_BMA20_M_
