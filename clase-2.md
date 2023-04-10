@@ -68,3 +68,40 @@ while(k<=len(cad3)-1):
     print(cad3[k],end=" ")
     k+=1
 ```
+## For
+
+```
+for i in range(1,15):
+    print(i,end=" ")
+    
+for i in range(1,31):
+    print(i,end=" ")
+    
+for i in range(1,31,4): #for con paso 4
+    print(i,end=" ")
+```
+### Ejercicio
+1. Calcular la suma de la siguiente serie con x=1 hasta que el n-término sea mayor a 0.0001
+
+    e<sup>x</sup>=1 + x<sup>2</sup>/2! + x<sup>3</sup>/3! + ... + x<sup>n</sup>/n! = 2.7
+
+
+
+
+```
+import math as mt
+e=0
+x=1
+cont=0
+term=1
+while(term>0.0001):
+    fact=mt.factorial(cont)
+    term=(mt.pow(x, cont))/fact
+    e=e+term
+    cont+=1
+print("El n-termino es:",term,end="\n\n")
+print("La suma es e =",e,end="\n\n")
+```
+2. Ingresar n numeros y mostrar la suma de los mismos hasta que ingreses el valor de -1 donde el programa termine
+
+
