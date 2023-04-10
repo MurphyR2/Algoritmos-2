@@ -8,6 +8,5 @@ En esta sección encontrarás las clases
 
 
 
-* Clase 1
-* Clase 2
-* Clase 3
+* <a href="clase-1.md">Clase 1</a>
+* <a href="clase-2.md">Clase 2</a>
