@@ -105,3 +105,129 @@ print("La suma es e =",e,end="\n\n")
 2. Ingresar n numeros y mostrar la suma de los mismos hasta que ingreses el valor de -1 donde el programa termine
 
 
+## Listas
+
+Son mutables (sus valores y longitud pueden cambiar)
+
+```
+L3=[18,19,20,"Testla,[1,2,3],"Fisher",123]
+print(L3)
+print(L3[0])
+print(L3[6])
+print("--------------Inversa--------------\n")
+print(L3[-1])
+print(L3[-2])
+
+print("---------------Longitud de lista------------\n")
+print(len(L3))
+
+print("---------------Cambio de valores------------\n")
+L3[2]="Dirac"
+print(L3)
+
+print("--------------Operadores con listas---------")
+L1=[4,5,6]
+L2=[2,3]
+L4=L1+L2
+print(L4)
+
+L5=L2*3
+print(L5)
+```
+Agregar elementos a lista
+```
+print("-------------------Agregar elementos a la lista------------")
+#append 
+#insert
+#extend
+L6=["circuitos",[2,3,4],16,"electronicos"]
+print(L6)
+
+L6.append("Antenas")
+print(L6)
+L6.append([18,19,20])
+print(L6)
+
+print("-------------------Insert----------------")
+L6=["circuitos",[2,3,4],16,"electronicos"]
+print(L6)
+L6.insert(3,"vacaciones")
+print(L6)
+print("-------------------Extend----------------")
+L6=["circuitos",[2,3,4],16,"electronicos"]
+print(L6)
+L6.extend([10,15,17,"5G"])
+print(L6)
+```
+Eliminar elementos
+```
+L7=["Tecnologia","Energia",12,70,30,[5,6,7],100,200]
+print(L7)
+
+print("---------------del------------------")
+
+del L7[1]
+print(L7)
+del L7[3]
+print(L7)
+
+print("-------------remove--------------")
+L7=["Tecnologia","Energia",12,70,30,[5,6,7],100,200]
+print(L7)
+L7.remove("Energia")
+print(L7)
+
+print("--------------pop----------------")
+L7=["Tecnologia","Energia",12,70,30,[5,6,7],100,200]
+print(L7)
+L7.pop()
+print(L7)
+L7.pop(1)
+print(L7)
+a=L7.pop(3)
+print(a)
+
+#Transferir a otra lista
+L7=["Tecnologia","Energia",12,70,30,[5,6,7],100,200]
+L8=[]
+L8.append(L7.pop(5))
+print(L7)
+print(L8)
+
+```
+Referencias y Copias de listas
+
+Ambas listas están almacenadas en la misma posición de memoria
+```
+print("----------Referencia------------")
+L9=[20,70,"Galois",888,[2,4,5]]
+print(L9)
+L10=L9
+L10.append(10000)
+print(L10)
+print(L9)
+```
+```
+print("----------Copia---------------")
+L11=L9[:]
+L12=L9.copy()
+print(L12)
+L12.append([1,7,4])
+L12.append("Newton")
+print(L11)
+print(L12)
+print(L9)
+```
+
+For con listas
+
+```
+Lx=[4,7,9,1,20,100]
+print(Lx)
+for elem in Lx:
+    print(elem,end=" ")
+print("\n")
+for indice in range(len(Lx)):
+    print(Lx[indice],end=" ")
+```
+
