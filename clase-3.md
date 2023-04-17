@@ -60,8 +60,9 @@ def verificarSiPrimoNo(num):
             ac=ac+1
     if(ac==2):
         return 1
-    else return 0
-nx=int(input("Ingrese numero"))
+    else:
+        return 0
+nx=int(input("Ingrese numero: 13"))
 val=verificarSiPrimoNo(nx)
 if(val==1):
     print("Es Primo")
