@@ -195,7 +195,7 @@ print(L7)
 print(L8)
 
 ```
-Referencias y Copias de listas
+### Referencias y Copias de listas
 
 Ambas listas están almacenadas en la misma posición de memoria
 ```
@@ -219,7 +219,7 @@ print(L12)
 print(L9)
 ```
 
-For con listas
+### For con listas
 
 ```
 Lx=[4,7,9,1,20,100]
@@ -232,7 +232,7 @@ for indice in range(len(Lx)):
 ```
 ### Ejercicio
 
-Programa que suma los términos hasta que se ingrese -1
+2. Programa que suma los términos hasta que se ingrese -1
 
 ```
 #Segundo ejercicio
@@ -251,7 +251,7 @@ while(cont<=n):
 print("La suma hasta {0} es: {1}".format(term,s),end="\n")
 ```
 
-Programa que suma los elementos de una lista
+3. Programa que suma los elementos de una lista
 ```
 #Tercer ejercicio
 
@@ -265,7 +265,7 @@ suma=sum(L)
 print("La lista es: {0} \n\n La suma de sus elementos es: {1}".format(L,suma))
 ```
 
-Continue
+4. Continue: Ingresar desde un numero que te permita encontrar las divisiones exactas y se salta cuando se divide entre 0
 ```
 #Cuarto ejercicio
 
