@@ -230,4 +230,57 @@ print("\n")
 for indice in range(len(Lx)):
     print(Lx[indice],end=" ")
 ```
+### Ejercicio
 
+Programa que suma los términos hasta que se ingrese -1
+
+```
+#Segundo ejercicio
+
+#Programa que suma los terminos hasta que se ingrese -1
+s=0
+n=int(input("Ingrese el numero de terminos: "))
+cont=1
+while(cont<=n):
+    term=int(input("Ingrese el termino: "))
+    if(term==-1):
+        break
+    s+=term
+    cont+=1
+    
+print("La suma hasta {0} es: {1}".format(term,s),end="\n")
+```
+
+Programa que suma los elementos de una lista
+```
+#Tercer ejercicio
+
+#Programa que suma los elementos de una lista
+n=int(input("Ingrese el numero de elementos: "))
+L=[]
+for i in range(0,n):
+    x=int(input("Ingrese el elemento: "))
+    L.append(x)
+suma=sum(L)
+print("La lista es: {0} \n\n La suma de sus elementos es: {1}".format(L,suma))
+```
+
+Continue
+```
+#Cuarto ejercicio
+
+#Ingresar desde un numero que te permita encontrar las divisiones exactas 
+#y se salta cuando se divide entre 0
+
+
+L=[4,3,0,8,9]
+print(L)
+
+num=int(input("Ingrese el numero: "))
+
+for element in L:
+    if(element==0):
+        continue
+    div=num/element
+    print("{0}/{1} = {2}".format(num,element,div))
+```
