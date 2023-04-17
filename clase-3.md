@@ -50,3 +50,21 @@ L7=[i*i for i in range(10) if i%2!=0]
 
 print (L7)
 ```
+##Funciones
+
+```
+def verificarSiPrimoNo(num):
+    ac=0
+    for div in range(1,num+1):
+        if(num%div==0):
+            ac=ac+1
+    if(ac==2):
+        return 1
+    else return 0
+nx=int(input("Ingrese numero"))
+val=verificarSiPrimoNo(nx)
+if(val==1):
+    print("Es Primo")
+else:
+    print("No Primo")
+```
